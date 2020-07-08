@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest package="com.lee.zbardemo"
           xmlns:android="http://schemas.android.com/apk/res/android">
-    
-    <uses-sdk android:minSdkVersion="14"/>
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     
     <application
         android:allowBackup="true"
